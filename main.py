@@ -1,5 +1,4 @@
-from src.jogo import Jogo
-
+'''
 def iniciarJogo():
     """Cria uma nova instância do jogo e inicia a partida."""
     jogo = Jogo()
@@ -29,4 +28,13 @@ def main():
 
     print("Obrigado por jogar!")
 
-main()
+main()'''
+
+from src.ui.interface_jogo import interfaceJogo
+import tkinter as tk
+
+if __name__ == "__main__":
+    root = tk.Tk()
+    root.title("Sudoku")
+    interfaceJogo(root)
+    root.mainloop()
