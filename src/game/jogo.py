@@ -1,5 +1,5 @@
 from time import sleep
-from src.tabuleiro import Tabuleiro
+from game.tabuleiro import Tabuleiro
 
 class Jogo:
     LIMITE_ERROS = 3
